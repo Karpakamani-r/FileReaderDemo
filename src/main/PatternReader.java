@@ -24,8 +24,7 @@ public class PatternReader {
         if (patterFile == null) return null;
         JSONParser parser = new JSONParser();
         try {
-            JSONObject patternJson = (JSONObject) parser.parse(readJsonFromFile(patterFile).toString());
-            JSONArray patternArray = (JSONArray) patternJson.get("tables");
+            JSONArray patternArray = (JSONArray) parser.parse(readJsonFromFile(patterFile).toString());
             Type listType = new TypeToken<List<Pattern>>() {
             }.getType();
             return new Gson().fromJson(patternArray.toString(),

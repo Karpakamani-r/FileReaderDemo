@@ -1,7 +1,5 @@
-{
-  "tables": [
-    {
-      "table_name": "COP_TKN_POS_DTL_DAY_1"
-    }
-  ]
-}
+[
+  {
+    "table_name": "COP_TKN_POS_DTL_DAY_1"
+  }
+]
