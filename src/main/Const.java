@@ -1,3 +1,5 @@
+package main;
+
 import java.io.File;
 import java.nio.file.Paths;
 
@@ -10,5 +12,5 @@ public class Const {
     }
 
     static final String FILE_PATH = new File(Paths.get(".").normalize().toAbsolutePath() + "/src/").toString();
-    static final String FILE_NAME = "data.json";
+    static final String FILE_NAME = "main/data.json";
 }

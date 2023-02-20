@@ -1,3 +1,5 @@
+package main;
+
 import com.google.gson.annotations.SerializedName;
 
 public class Pattern {
