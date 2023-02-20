@@ -1,22 +1,20 @@
-{
-  "tables": [
-    {
-      "table_name": "COP_TKN_POS_DTL_DAY_1",
-      "db_name": "ICOW_CB_PRSN_V",
-      "pattern": "Append",
-      "sql": "select * from table CDP_TXN_POS_DTL_DAY_1"
-    },
-    {
-      "table_name": "COP_TKN_POS_DTL_DAY_2",
-      "db_name": "ICOW_CB_PRSN_V",
-      "pattern": "Append",
-      "sql": "select * from table CDP_TXN_POS_DTL_DAY_2"
-    },
-    {
-      "table_name": "COP_TKN_POS_DTL_DAY_3",
-      "db_name": "ICOW_CB_PRSN_V",
-      "pattern": "Append",
-      "sql": "select * from table CDP_TXN_POS_DTL_DAY_3"
-    }
-  ]
-}
+[
+  {
+    "table_name": "COP_TKN_POS_DTL_DAY_1",
+    "db_name": "ICOW_CB_PRSN_V",
+    "pattern": "Append",
+    "sql": "select * from table CDP_TXN_POS_DTL_DAY_1"
+  },
+  {
+    "table_name": "COP_TKN_POS_DTL_DAY_2",
+    "db_name": "ICOW_CB_PRSN_V",
+    "pattern": "Append",
+    "sql": "select * from table CDP_TXN_POS_DTL_DAY_2"
+  },
+  {
+    "table_name": "COP_TKN_POS_DTL_DAY_3",
+    "db_name": "ICOW_CB_PRSN_V",
+    "pattern": "Append",
+    "sql": "select * from table CDP_TXN_POS_DTL_DAY_3"
+  }
+]

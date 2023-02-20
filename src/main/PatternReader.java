@@ -3,7 +3,6 @@ package main;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.*;
@@ -27,8 +26,7 @@ public class PatternReader {
             JSONArray patternArray = (JSONArray) parser.parse(readJsonFromFile(patterFile).toString());
             Type listType = new TypeToken<List<Pattern>>() {
             }.getType();
-            return new Gson().fromJson(patternArray.toString(),
-                    listType);
+            return new Gson().fromJson(patternArray.toString(), listType);
         } catch (Exception e) {
             System.out.println("Exception=" + e);
         }
